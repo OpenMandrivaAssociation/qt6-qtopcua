@@ -5,7 +5,7 @@
 %define _qtdir %{_libdir}/qt%{major}
 
 Name:		qt6-qtopcua
-Version:	6.12.0
+Version:	6.12.1
 Release:	%{?beta:0.%{beta}.}%{?snapshot:0.%{snapshot}.}1
 # Qt does not publish this module on download.qt.io. The tag archive
 # unpacks as qtopcua-<version>.
